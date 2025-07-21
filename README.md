@@ -35,3 +35,18 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 # OpenAI-Agents-SDK-Quiz-Next-JS
+
+
+
+
+
+📁 src/
+├── 📁 app/
+│   ├── page.tsx                 ← Home page
+│   └── 📁 quiz/
+│       └── page.tsx             ← Quiz route (http://localhost:3000/quiz)
+├── 📁 components/
+│   └── Quiz.tsx                 ← Quiz UI component
+└── 📁 lib/
+    └── questions.ts            ← Quiz data (OpenAI Agents SDK questions)
+
